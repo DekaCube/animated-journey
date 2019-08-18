@@ -20,5 +20,11 @@ void decon_vector(vector* info);
 void vector_insert(vector* info, int data, unsigned int index);
 vector vector_copy(vector* info);
 vector intarr_to_vector(int* arr,unsigned int count);
+void vector_sort(vector* info); //MIN TO MAX
+
+//For sorting
+void insert_heap(int* heap,int data);
+void swap(int* a,int* b);
+int pop_min_heap(int* heap);
 
 #endif
